@@ -19,38 +19,42 @@ At least it is consistent.
 
 http://en.wikipedia.org/wiki/Three-valued_logic
 
-``
- TESTING OPERATION NOT
- ----------------
- True    |False
- False   |True
- undef   |undef
- ****************************************
- TESTING OPERATION AND
-     True    |False  |undef
- ------------------------------
- True    |True   |False  |undef
- ------------------------------
- False   |False  |False  |False
- ------------------------------
- undef   |undef  |False  |undef
- ****************************************
- TESTING OPERATION XOR
-     True    |False  |undef
- ------------------------------
- True    |False  |True   |undef
- ------------------------------
- False   |True   |False  |undef
- ------------------------------
- undef   |undef  |undef  |undef
- ****************************************
- TESTING OPERATION OR
-     True    |False  |undef
- ------------------------------
- True    |True   |True   |True
- ------------------------------
- False   |True   |False  |undef
- ------------------------------
- undef   |True   |undef  |undef
- 
-``
+TESTING OPERATION NOT
+----------------
+True    |False
+False   |True
+undef   |undef
+
+****************************************
+
+TESTING OPERATION AND
+        True    |False  |undef
+------------------------------
+True    |True   |False  |undef
+------------------------------
+False   |False  |False  |False
+------------------------------
+undef   |undef  |False  |undef
+
+****************************************
+
+TESTING OPERATION XOR
+        True    |False  |undef
+------------------------------
+True    |False  |True   |undef
+------------------------------
+False   |True   |False  |undef
+------------------------------
+undef   |undef  |undef  |undef
+
+****************************************
+
+TESTING OPERATION OR
+        True    |False  |undef
+------------------------------
+True    |True   |True   |True
+------------------------------
+False   |True   |False  |undef
+------------------------------
+undef   |True   |undef  |undef
+
