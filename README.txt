@@ -1,11 +1,11 @@
-Just illustrating how ternry Boolean should behave
+Just illustrating how ternary Boolean should behave
 ==================================================
 
 In electronics we have 3 states : 
 ---------------------------------
 
 * HV : High Voltage which is True
-* LV : Low Voltage wich is Fale
+* LV : Low Voltage wich is False
 * Z : high impendance or undefined. 
 
 This is useful for protocol like I2C since it enables bi-directional communications on a single wire. 
